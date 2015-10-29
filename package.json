@@ -1,6 +1,6 @@
 {
   "name": "crawl-url",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A npm command line utility to crawl images of an url or sets of url.",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,9 @@
     "commander": "2.9.0",
     "request": "2.65.0"
   },
+  "bin": {
+    "crawl-url": "./cli.js"
+  },
   "keywords": [
     "crawler",
     "crawl",
@@ -28,7 +31,7 @@
     "crawlurl",
     "urlcrawler"
   ],
-  "author": "Margesh Patek",
+  "author": "Margesh Patel",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/margeshpatel/crawl-url/issues"
