@@ -1,7 +1,8 @@
 {
   "name": "crawl-url",
-  "version": "1.0.3",
-  "description": "A npm command line utility to crawl images of an url or sets of url.",
+  "version": "1.0.4",
+  "preferGlobal": "true",
+  "description": "A npm command line utility to crawl images of an url or set of urls.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

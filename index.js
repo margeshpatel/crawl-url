@@ -11,7 +11,7 @@ var http = require('http')
 var program = require('commander');
 
 program
-  .version('0.0.1')
+  .version('1.0.4')
   .option('-u, --url [type]', 'Url to crawl images from [http://codechants.com]')
   .option('-f, --file [type]', 'File to crawl images from')
   .parse(process.argv);
